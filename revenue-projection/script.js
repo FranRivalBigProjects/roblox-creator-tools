@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+players.value,g=+growth.value;if(!p||!g){res.innerText='Enter values';return;}res.innerText=`Next: ${Math.floor(p*(1+g/100))}`;}

@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+price.value;if(!p){res.innerText='Enter value';return;}res.innerText=`After fee: ${(p*0.7).toFixed(2)}`;}

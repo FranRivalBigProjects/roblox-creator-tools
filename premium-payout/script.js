@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+playtime.value,r=+rate.value;if(!p||!r){res.innerText='Enter values';return;}res.innerText=`Payout: $${(p*r).toFixed(2)}`;}

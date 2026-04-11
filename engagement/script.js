@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let a=+active.value,t=+total.value;if(!a||!t){res.innerText='Enter values';return;}res.innerText=`Rate: ${(a/t*100).toFixed(2)}%`;}

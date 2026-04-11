@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=+price.value,c=+percent.value;if(!p||!c){res.innerText='Enter values';return;}res.innerText=`Commission: ${(p*c/100).toFixed(2)}`;}

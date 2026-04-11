@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let v=+views.value,c=+cpm.value;if(!v||!c){res.innerText='Enter values';return;}res.innerText=`Revenue: $${(v/1000*c).toFixed(2)}`;}
